@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '1467tg@vst1v%pa$lj4z&9)is9wiwotknf1z$l^zvfbsxogcvy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['blinxcorporation.herokuapp.com/']
 
 # Application definition
 
@@ -128,9 +128,7 @@ STATIC_ROOT=os.path.join(BASE_DIR,"staticfiles")
 django_heroku.settings(locals())
 
 
-# config/settings.py
-DEFAULT_FROM_EMAIL = 'will@learndjango.com'
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 
 
 
