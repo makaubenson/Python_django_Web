@@ -1,9 +1,12 @@
-{% load static %}
+
+  
+{% load staticfiles %}
+
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>makau and sons</title>
+  <title>BLINX CORPORATION</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -17,6 +20,7 @@
 
   <!-- Bootstrap CSS File -->
   <link href="{% static 'lib/bootstrap/css/bootstrap.min.css'%}" rel="stylesheet">
+  <link href="{% static '/css/style.css'%}" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
   <link href="{% static 'lib/nivo-slider/css/nivo-slider.css'%}" rel="stylesheet">
@@ -61,7 +65,7 @@
 									</button>
                 <!-- Brand -->
                 <a class="navbar-brand page-scroll sticky-logo" href="bensonweb.html">
-                  <h1>Makau<span>and</span>Sons</h1>
+                  <h1><span>Blinx Corporation</span></h1>
                   <!-- Uncomment below if you prefer to use an image logo -->
                   <!-- <img src="img/logo.png" alt="" title=""> -->
 								</a>
@@ -79,7 +83,7 @@
                     <a class="page-scroll" href="#services">Services</a>
                   </li>
                   <li>
-                    <a class="page-scroll" href="#team">Team</a>
+                    <a class="page-scroll" href="#projects">Projects</a>
                   </li>
                   <li>
                     <a class="page-scroll" href="#portfolio">Portfolio</a>
@@ -129,7 +133,7 @@
               <div class="slider-content">
                 <!-- layer 1 -->
                 <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h2 class="title1">Makau and Sons Corporation</h2>
+                  <h2 class="title1">BLINX Corporation</h2>
                 </div>
                 <!-- layer 2 -->
                 <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
@@ -154,7 +158,7 @@
               <div class="slider-content text-center">
                 <!-- layer 1 -->
                 <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h2 class="title1">Makau and Sons Corporation</h2>
+                  <h2 class="title1">Blinx Corporation</h2>
                 </div>
                 <!-- layer 2 -->
                 <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
@@ -179,7 +183,7 @@
               <div class="slider-content">
                 <!-- layer 1 -->
                 <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h2 class="title1">Makau and Sons Corporation</h2>
+                  <h2 class="title1">Blinx Corporation</h2>
                 </div>
                 <!-- layer 2 -->
                 <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
@@ -225,14 +229,14 @@
           <div class="well-middle">
             <div class="single-well">
               <a href="#">
-                <h4 class="sec-head">Makau and Sons Corporation</h4>
+                <h4 class="sec-head">Blinx Corporation</h4>
               </a>
               <p>
                 
               </p>
               <ul>
                 <li>
-                  <i class="fa fa-check"></i> Makau and Sons Corporation is an IT based technology company that solves the day to day Technology problems.
+                  <i class="fa fa-check"></i> Blinx Corporation is an IT based technology company that solves the day to day Technology problems.
                 </li>
                 <li>
                   <i class="fa fa-check"></i> Its composed of very qualified team members with degree in the same.
@@ -259,6 +263,7 @@
   <!-- Start Service area -->
   <div id="services" class="services-area area-padding">
     <div class="container">
+
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="section-headline services-head text-center">
@@ -266,8 +271,10 @@
           </div>
         </div>
       </div>
+
       <div class="row text-center">
         <div class="services-contents">
+
           <!-- Start Left services -->
           <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="about-move">
@@ -276,288 +283,128 @@
                   <a class="services-icon" href="#">
 											<i class="fa fa-code"></i>
 										</a>
-                  <h4>Expert Coder</h4>
+                  <h4>Website Development</h4>
                   <p>
-                    We are experts in coding,we use Python,Java,HTML/CSS for websites,PHP and many more.
+                    We develop professional websites with the most appealing display to our clients.
                   </p>
                 </div>
               </div>
               <!-- end about-details -->
             </div>
           </div>
+
           <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="about-move">
               <div class="services-details">
                 <div class="single-services">
                   <a class="services-icon" href="#">
-											<i class="fa fa-camera-retro"></i>
+											<i class="fa fa-code"></i>
 										</a>
-                  <h4>Creative Designer</h4>
+                  <h4>Desktop App development</h4>
                   <p>
-                    We design websites based on user expectations and very much appealing.
+                    We are experts in Developing desktop applications using Java.
                   </p>
                 </div>
               </div>
               <!-- end about-details -->
             </div>
           </div>
+
           <div class="col-md-4 col-sm-4 col-xs-12">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
+            <div class="about-move">
               <div class="services-details">
                 <div class="single-services">
                   <a class="services-icon" href="#">
-											<i class="fa fa-wordpress"></i>
+											<i class="fa fa-code"></i>
 										</a>
-                  <h4>Android Development.</h4>
+                  <h4>Android App development</h4>
                   <p>
-                    We develop best android apps using Kotlin and also Java.We have expert understanding of the same.
+                    The apps we create focus more on the users giving them the BEST experience they may ever need.
                   </p>
                 </div>
               </div>
               <!-- end about-details -->
             </div>
           </div>
+
           <div class="col-md-4 col-sm-4 col-xs-12">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
+            <div class="about-move">
               <div class="services-details">
                 <div class="single-services">
                   <a class="services-icon" href="#">
-											<i class="fa fa-camera-retro"></i>
+											<i class="fa fa-code"></i>
 										</a>
-                  <h4>Web Hosting</h4>
+                  <h4>Payment Integrations</h4>
                   <p>
-                    We host websites at a pocket friendly price.Contact us for more.
+                    We provide payment solution by integrating Mobile payments as well as online mobile payments into your systems.
                   </p>
                 </div>
               </div>
               <!-- end about-details -->
             </div>
           </div>
-          <!-- End Left services -->
+
           <div class="col-md-4 col-sm-4 col-xs-12">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
+            <div class="about-move">
               <div class="services-details">
                 <div class="single-services">
                   <a class="services-icon" href="#">
-											<i class="fa fa-bar-chart"></i>
+											<i class="fa fa-code"></i>
 										</a>
-                  <h4>PHP backend</h4>
+                  <h4>Network Implimentation</h4>
                   <p>
-                    We also do web backend using Hypertext Preprocessor(PHP).
+                    We design networks for your business, enterprise as well as home to suit your needs.
                   </p>
                 </div>
               </div>
               <!-- end about-details -->
             </div>
           </div>
-          <!-- End Left services -->
+
           <div class="col-md-4 col-sm-4 col-xs-12">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
+            <div class="about-move">
               <div class="services-details">
                 <div class="single-services">
                   <a class="services-icon" href="#">
-											<i class="fa fa-ticket"></i>
+											<i class="fa fa-code"></i>
 										</a>
-                  <h4>24/7 Support</h4>
+                  <h4>SUPPORT</h4>
                   <p>
-                    We offer 24/7 customer care response and support to our clients.
+                    We offer support and advice on the best solution for any tech problem your face.
                   </p>
                 </div>
               </div>
               <!-- end about-details -->
             </div>
+          </div>     
+
           </div>
-        </div>
       </div>
     </div>
   </div>
   <!-- End Service area -->
 
-  <!-- our-skill-area start -->
-  <div class="our-skill-area fix hidden-sm">
-    <div class="test-overly"></div>
-    <div class="skill-bg area-padding-2">
-      <div class="container">
-        <!-- section-heading end -->
-        <div class="row">
-          <div class="skill-text">
-            <!-- single-skill start -->
-            <div class="col-xs-12 col-sm-3 col-md-3 text-center">
-              <div class="single-skill">
-                <div class="progress-circular">
-                  <input type="text" class="knob" value="0" data-rel="100" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
-                  <h3 class="progress-h4">Web Design</h3>
-                </div>
-              </div>
-            </div>
-            <!-- single-skill end -->
-            <!-- single-skill start -->
-            <div class="col-xs-12 col-sm-3 col-md-3 text-center">
-              <div class="single-skill">
-                <div class="progress-circular">
-                  <input type="text" class="knob" value="0" data-rel="100" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
-                  <h3 class="progress-h4">Graphics Design</h3>
-                </div>
-              </div>
-            </div>
-            <!-- single-skill end -->
-            <!-- single-skill start -->
-            <div class="col-xs-12 col-sm-3 col-md-3 text-center">
-              <div class="single-skill">
-                <div class="progress-circular">
-                  <input type="text" class="knob" value="0" data-rel="100" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
-                  <h3 class="progress-h4">PHP Developer</h3>
-                </div>
-              </div>
-            </div>
-            <!-- single-skill end -->
-            <!-- single-skill start -->
-            <div class="col-xs-12 col-sm-3 col-md-3 text-center">
-              <div class="single-skill">
-                <div class="progress-circular">
-                  <input type="text" class="knob" value="0" data-rel="100" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
-                  <h3 class="progress-h4">Java Script</h3>
-                </div>
-              </div>
-            </div>
-            <!-- single-skill end -->
-          </div>
-        </div>
-      </div>
-    </div>
+<!--Coming soon area-->
+<div id="projects">
+ 
+<div class="container h-100 d-flex">
+  <div class="jumbotron my-auto">
+    <h1 class="display-3" style="text-align: center; color: green;">PROJECTS</h1>
+    <h3 class="display-3" style="text-align: center; color: green;">COMING SOON</h3>
+    <p class="lead" style="text-align: center;">This Section is under maintainance. </p>
+    <p style="color: indianred; text-align: center;">We are very sorry for the inconvinience. </p>
   </div>
-  <!-- our-skill-area end -->
+</div>
 
-  
-
-  <!-- Start Wellcome Area -->
-  <div class="wellcome-area">
-    <div class="well-bg">
-      <div class="test-overly"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="wellcome-text">
-              <div class="well-text text-center">
-                <h2>Welcome To Our Website</h2>
-                <p>
-                  Enter your email below to subscribe for our frequent updates on our new projects and many more services!!!!
-                </p>
-                <div class="subs-feilds">
-                  <div class="suscribe-input">
-                    <input type="email" class="email form-control width-80" id="sus_email" placeholder="Email">
-                    <button type="submit" id="sus_submit" class="add-btn width-20">Subscribe</button>
-                    <div id="msg_Submit" class="h3 text-center hidden"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Wellcome Area -->
-
-  <!-- Start team Area -->
-  <div id="team" class="our-team-area area-padding">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="section-headline text-center">
-            <h2>Our special Team</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="team-top">
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="#">
-										<img src="{% static 'img/team/benson.jpg '%}" style="width: 350px;height: 350px;"alt="">
-									</a>
-                <div class="team-social-icon text-center">
-                  <ul>
-                    <li>
-                      <a href="https://www.linkedin.com/in/benson-makau-657b7b17b">
-													<i class="fa fa-linkedin"></i>
-												</a>
-                    </li>
-                    <li>
-                      <a href="https://twitter.com/home/benson31129258">
-													<i class="fa fa-twitter"></i>
-												</a>
-                    </li>
-                    <li>
-                      <a href="https://wa.me/254758413462?text=Hello%20%2C">
-													<i class="fa fa-whatsapp"></i>
-												</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>Benson Makau</h4>
-                <p><strong>Director:</strong>Makau<span style="color: lightblue;"><strong>And</strong></span> Sons</p>
-                <p>I am a fullstack developer looking forward to working with very passionate and enthusiatic tech guys in the society.</p>
-              </div>
-            </div>
-          </div>
-          <!-- End column -->
-         <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="#">
-										<img src="{% static 'img/john.jpg '%}" style="width: 350px;height: 350px;"alt="">
-									</a>
-                <div class="team-social-icon text-center">
-                  <ul>
-                    <li>
-                      <a href="https://www.linkedin.com/in/benson-makau-657b7b17b">
-													<i class="fa fa-linkedin"></i>
-												</a>
-                    </li>
-                    <li>
-                      <a href="https://twitter.com/home/benson31129258">
-													<i class="fa fa-twitter"></i>
-												</a>
-                    </li>
-                    <li>
-                      <a href="https://wa.me/254758413462?text=Hello%20%2C">
-													<i class="fa fa-whatsapp"></i>
-												</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>John kamau</h4>
-                <p><strong>Director:</strong>Kamau<span style="color: lightblue;"><strong>And</strong></span> Sons</p>
-                <p>I am a fullstack developer,i work as a desktop app developer at Makau And Sons Corporation.</p>
-              </div>
-            </div>
-          </div>
-          <!-- End column -->
-          
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Team Area -->
+</div>
+  <!--End of Coming Soon-->
 
   <!-- Start reviews Area -->
   <div class="reviews-area hidden-xs">
     <div class="work-us">
       <div class="work-left-text">
         <a href="#">
-						<img src="{% static 'img/about/2.jpg'%}" alt="working with us">
+						<img src="{% static 'img/about/2.jpg' %}" alt="working with us">
 					</a>
       </div>
       <div class="work-right-text text-center">
@@ -573,6 +420,7 @@
   <div id="portfolio" class="portfolio-area area-padding fix">
     <div class="container">
       <div class="row">
+
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <div class="section-headline text-center">
             <h2>Our Portfolio</h2>
@@ -601,6 +449,7 @@
             </div>
           </div>
         </div>
+
         <div class="awesome-project-content">
           <!-- single-awesome-project start -->
           <div class="col-md-4 col-sm-4 col-xs-12 design development">
@@ -618,6 +467,7 @@
               </div>
             </div>
           </div>
+
           <!-- single-awesome-project end -->
           <!-- single-awesome-project start -->
           <div class="col-md-4 col-sm-4 col-xs-12 photo">
@@ -652,58 +502,9 @@
               </div>
             </div>
           </div>
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 photo development">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="{% static 'img/portfolio/4.jpg'%}" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="{% static 'img/portfolio/4.jpg'%}">
-                      <h4>Creative Team</h4>
-                      <span>Web design</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 development">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="{% static 'img/portfolio/5.jpg'%}" alt="" /></a>
-                <div class="add-actions text-center text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="{% static 'img/portfolio/5.jpg'%}">
-                      <h4>Beautiful Flower</h4>
-                      <span>Web Development</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 design photo">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="{% static 'img/portfolio/6.jpg'%}" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="{% static 'img/portfolio/6.jpg'%}">
-                      <h4>Night Hill</h4>
-                      <span>Photoshop</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- single-awesome-project end -->
+          
+       
+          
         </div>
       </div>
     </div>
@@ -810,8 +611,11 @@
                                         <a href="blog.html">GitHub</a>
 									</h4>
                 <p>
-                  We use GitHub as our collaboration site where all our projects are pushed.Our GitHub username is <em>makaubenson</em>,kindly create/sign in and follow us for more.Regards
+                  Follow us on github and get to see the kind of projects we work on.Regards
                 </p>
+                <span>
+									<a href="https://github.com.com/makaubenson" class="ready-btn">GITHUB</a>
+								</span>
               </div>
               <span>
 									<!--<a href="..." class="ready-btn">Read more</a>-->
@@ -870,8 +674,8 @@
               <div class="single-icon">
                 <i class="fa fa-envelope-o"></i>
                 <p>
-                  Email: bensonmakau2000@yahoo.com<br>
-                  <span>Web:www.makaubenson.herokuapp.com</span>
+                  Email: bensonmakau2000@gmail.com<br>
+                  
                 </p>
               </div>
             </div>
@@ -882,8 +686,8 @@
               <div class="single-icon">
                 <i class="fa fa-map-marker"></i>
                 <p>
-                  Location: Machakos<br>
-                  <span>Sofia Market,Opposite Stedan Hardware</span>
+                  Location: NAIROBI<br>
+                  <span>Afya Center</span>
                 </p>
               </div>
             </div>
@@ -891,46 +695,11 @@
         </div>
         <div class="row">
 
-          <!-- Start Google Map -->
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <!-- Start Map -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <!-- End Map -->
-          </div>
-          <!-- End Google Map -->
+       <!--Contact Section-->
+      
 
-          <!-- Start  contact -->
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="form contact-form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
-              </form>
-            </div>
-          </div>
-          <!-- End Left contact -->
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Contact Area -->
+       
+       <!--End of Contact Section-->
 
   <!-- Start Footer bottom Area -->
   <footer>
@@ -941,7 +710,7 @@
             <div class="footer-content">
               <div class="footer-head">
                 <div class="footer-logo">
-                  <h2>Makau<span>and</span>Sons</h2>
+                  <h2><span>BLINX CORPORATION</span></h2>
                 </div>
 
                 <p>Visit us in our social media platforms and get to know more about us.</p>
@@ -1015,7 +784,7 @@
                 Licensing information: https://bootstrapmade.com/license/
                 Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eBusiness
               -->
-              Designed by <a href="...">Makau<span>and</span>Sons Corporation.</a>
+              Designed by <a href="..."><span>Blinx Corporation</span>.</a>
             </div>
           </div>
         </div>
