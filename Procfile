@@ -1,1 +1,1 @@
-web: gunicorn blinxcorporation.wsgi
+web: gunicorn makaubenweb.wsgi
