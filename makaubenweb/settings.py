@@ -25,8 +25,12 @@ SECRET_KEY = '1467tg@vst1v%pa$lj4z&9)is9wiwotknf1z$l^zvfbsxogcvy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+# DEBUG_PROPAGATE_EXCEPTIONS = True
 
-ALLOWED_HOSTS = ['blinxcorporation.herokuapp.com/']
+COMPRESS_ENABLED = os.environ.get('COMPRESS_ENABLED', False)
+
+ALLOWED_HOSTS = ['blinxcorporation.herokuapp.com']
+# blinxcorporation.herokuapp.com/
 
 # Application definition
 
@@ -44,6 +48,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -120,8 +125,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS=[os.path.join(BASE_DIR,"local")]
+STATICFILES_DIRS=[os.path.join(BASE_DIR,"static")]
 STATIC_ROOT=os.path.join(BASE_DIR,"staticfiles")
+
+
 
 
 # Activate Django-Heroku.

@@ -1,34 +1,3 @@
-/*
-  Theme Name: eBusiness
-  Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
-/*-----------------------------------------------------------------------------------
-   CSS INDEX
-  ===================
-
-  1. Theme Default CSS (body, link color, section etc)
-  2. Header Area
-   2.1 Stick menu Area
-  3. About Area
-  4.Services Area
-  5.Skill Area
-  6.Faq Area
-  7.Wellcome Area
-  8.Team Area
-  9.Review Area
-  10.Portfolio Area
-  11. Pricing Table
-  12. Testimonials area
-  13. Review Area
-  14. Quote area
-  15.Footer Area
-  16.Home Page-2 Area
-  17.Home Page 3  CSS
-  18.Blog CSS
-  17.Blog Details CSS
 
 -----------------------------------------------------------------------------------*/
 
@@ -198,7 +167,7 @@ div#preloader {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url('../img/preloader.gif') no-repeat center center;
+  background: #fff url('/img/preloader.gif') no-repeat center center;
 }
 
 ::-moz-selection {
@@ -552,9 +521,7 @@ div#preloader {
   position: relative;
 }
 
-.our-skill-area {
-  background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg") no-repeat fixed center top / cover;
-}
+
 
 .test-overly {
   background: rgba(0, 0, 0, 0.80);
@@ -727,7 +694,7 @@ div#preloader {
 ----------------------------------------*/
 
 .wellcome-area {
-  background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg");
+  
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -813,7 +780,7 @@ div#preloader {
 }
 
 .team-member::before {
-  background: rgba(0, 0, 0, 0) url("../img/team/team01.jpg") repeat scroll 0 0;
+  
   content: "";
   display: block;
   height: 100%;
@@ -1003,7 +970,7 @@ div#preloader {
 /*--------------------------------*/
 
 .reviews-area {
-  background: url(../img/background/bg1.jpg);
+  
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1351,7 +1318,7 @@ div#preloader {
 ----------------------------------------*/
 
 .testimonials-area {
-  background: rgba(0, 0, 0, 0) url("../img/background/slider1.jpg") no-repeat fixed center top / cover;
+  background: rgba(0, 0, 0, 0) url("/img/slider/slider1.jpg") no-repeat fixed center top / cover;
   height: auto;
   width: 100%;
 }
@@ -1871,7 +1838,7 @@ div#preloader {
 /*----------------------------------------*/
 
 .header-bg {
-  background: url(../img/slider/slider1.jpg);
+  background: url(/img/slider/slider1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -2363,12 +2330,7 @@ html, body {
 
 
 
-input[type=text], input[type=email], textarea {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
- }
+
 
 /*----------------------------------------
  .End CSS
