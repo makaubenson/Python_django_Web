@@ -1,13 +1,12 @@
 # Python_django_Web
 
- #### This is a website build using python-django
+ #### The backend of this website lies in python-django
 
  #### In order to run this site in your local machine, follow the steps below:
 
 ### a) Install python and add it to path
-### b) Create a virtual environment: 
+### b) Create a virtual environment (open cmd/ terminal and type the command below): 
 
-    * Install virtualenv via pip:
        *  $ pip install virtualenv
     
 ### b)Test your installation:
@@ -30,4 +29,4 @@
    * That command will install all the modules contained in my project
 
 ### f) Finally: while in the root directory Run :
-      *  > python manage.py runserver
+      *  python manage.py runserver
