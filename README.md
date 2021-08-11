@@ -15,7 +15,7 @@
 ### c) Create your own virtual environment
        * $ virtualenv <name of the environment>
   
-### d) cd to the Virtual envrinment created above
+### d) cd to the Virtual environment created above
 
        * cd Scripts
        * type activate, the press the tab key
@@ -24,7 +24,8 @@
       * (myenv)> that will be the look of the activated virtual env
 
       * cd to the project directory i.e where the manage.py file is located then:
-### e) pip install -r requirements.txt 
+### e) Install all the dependancies in the requirements.txt
+    * pip install -r requirements.txt 
 
    * That command will install all the modules contained in my project
 
